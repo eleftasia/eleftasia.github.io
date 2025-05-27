@@ -1,12 +1,12 @@
 {{template "base" .}}
 
 {{define "header"}}
-<title>{{.SiteParams.name}}</title>
+<title>{{.SiteParams.name}} | Home </title>
 {{end}}
 
 {{define "content"}}
 
-<div class="section">
+<div class="section" id="profileInfo">
     <h1>{{.PageParams.title}}</h1>
     {{if .PageParams.profilePic}}
     <a class="avatarLink" href="{{.PageParams.profilePic.link}}">
@@ -14,29 +14,23 @@
     </a>
     {{end}}
 
+    {{if .PageParams.summary }}
     <p class="subtitle">
         <span class="triple-line">⫻</span>
         {{.PageParams.summary}}
         <span class="triple-line">⫻</span>
     </p>
+    {{end}}
 
+    {{if .PageParams.pronouns}}
+    <p><span class="triple-line">⫻</span>
+        {{.PageParams.pronouns}}
+        <span class="triple-line">⫻</span>
+    </p>
+    {{end}}
     {{if .PageParams.email}}
     <p>
         <span class="triple-line">⫻</span> <a href="mailto:{{.PageParams.email}}">{{.PageParams.email}}</a> <span class="triple-line">⫻</span>
-    </p>
-    {{end}}
-    {{if or .PageParams.pronouns .PageParams.emojis}}
-    <p><span class="triple-line">⫻</span>
-        {{if .PageParams.pronouns}}
-        {{.PageParams.pronouns}}
-        {{end}}
-        {{if and .PageParams.pronouns .PageParams.emojis}}
-        <span class="triple-line">⫻</span>
-        {{end}}
-        {{if .PageParams.emojis}}
-        {{.PageParams.emojis}}
-        {{end}}
-        <span class="triple-line">⫻</span>
     </p>
     {{end}}
     <p><span class="triple-line">⫻</span>
@@ -54,7 +48,7 @@
 </div>
 
 
-<div class="section">
+<div class="main">
     {{ .Body }}
 </div>
 

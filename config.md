@@ -1,6 +1,6 @@
 ---
-name: Elli Beres
-webAddress: "elliberes.me"
+name: eleftasia
+webAddress: "eleft.asia"
 navbarItems:
     -   name: About
         link: /about
@@ -8,8 +8,4 @@ navbarItems:
         link: /research
     -   name: Publications
         link: /publications
-icon:
-    path: "/linbwoman-site-colors.png"
-    link: "/"
-    alt: "EAB"
 ---
