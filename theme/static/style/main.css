@@ -24,6 +24,30 @@
     font-style: italic;
 }
 
+.iawriterduo-regular{
+    font-family: "iA Writer Duo", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.iawriterduo-bold {
+    font-family: "iA Writer Duo", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.iawriterduo-italic {
+    font-family: "iA Writer Duo", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.iawriterduo-bolditalic {
+    font-family: "iA Writer Duo", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
 :root {
     --nord-polarnight-0: #2e3440;
     --nord-polarnight-1: #3b4252;
