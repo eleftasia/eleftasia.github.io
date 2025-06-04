@@ -6,6 +6,8 @@ navbarItems:
         link: /research
     -   name: Publications
         link: /publications
+    -   name: Teaching
+        link: /teaching
     -   name: About
         link: /about
 ---
