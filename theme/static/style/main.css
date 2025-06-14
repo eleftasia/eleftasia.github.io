@@ -184,18 +184,18 @@
 }
 
 :root {
-    --background-color: var(--nord-snowstorm-2);
-    --main-text-color: var(--nord-polarnight-0);
-    --main-accent-color: var(--nord-polarnight-3);
-    --main-color: var(--nord-frost-3);
-    --link-highlight-color: var(--nord-frost-3);
+    --background-color: #F7F7F7;
+    --main-text-color: var(--ctp-latte-text);
+    --main-accent-color: #1A365C;
+    --main-color: #00ABC9;
+    --link-highlight-color: #00ABC9;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: var(--nord-polarnight-0);
-        --main-text-color: var(--nord-snowstorm-2);
-        --main-color: var(--nord-frost-3);
+        --background-color: var(--ctp-mocha-base);
+        --main-text-color: var(--ctp-mocha-text);
+        --main-color: #00ABC9;
         --main-accent-color: var(--nord-snowstorm-0);
         --link-highlight-color: var(--nord-snowstorm-0);
     }
@@ -222,7 +222,7 @@ code{
 }
 
 body {
-    width: 75%;
+    width: 80%;
     margin: auto;
     font-size: 18px;
     color: var(--main-text-color);
