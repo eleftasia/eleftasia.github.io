@@ -7,6 +7,10 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/style/main.css">
 
+    {{if .PageParams.redirect }}
+    <meta http-equiv="refresh" content="{{.PageParams.redirect.delay}}; URL={{.PageParams.redirect.url}}" />
+    {{end}}
+
     {{template "header" .}}
 
     {{template "favicons" .}}
