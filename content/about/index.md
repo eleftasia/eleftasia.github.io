@@ -16,5 +16,3 @@ I'm dedicated to working to make computing a safe, supportive, and welcoming fie
 In my free time, I love reading, boxing, working out, traveling, hiking, biking, and playing and especially GMing tabletop role-playing games like D&D.
 My favorite genres are fantasy, science fiction, and speculative fiction more broadly.
 Some of my favorite authors include Christopher Ruocchio, Ursula K LeGuin, Adrian Tchaikovsky, Brandon Sanderson, and J.R.R. Tolkien.
-
-If any of this seems interesting to you, I'd love to connect—feel free to reach out!
