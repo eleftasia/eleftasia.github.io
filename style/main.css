@@ -184,11 +184,11 @@
 }
 
 :root {
-    --background-color: #F7F7F7;
-    --main-text-color: var(--ctp-latte-text);
-    --main-accent-color: #1A365C;
-    --main-color: #00ABC9;
-    --link-highlight-color: #00ABC9;
+    --background-color: #F5F5F5;
+    --main-text-color: #212121;
+    --main-accent-color: #003057;
+    --main-color: #347785;
+    --link-highlight-color: #347785;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -259,7 +259,7 @@ body {
 
 @media (min-width: 750px) {
     .content {
-        max-width: 800px;
+        max-width: 830px;
     }
 }
 
