@@ -186,18 +186,18 @@
 :root {
     --background-color: #F5F5F5;
     --main-text-color: #212121;
-    --main-accent-color: #003057;
-    --main-color: #347785;
-    --link-highlight-color: #347785;
+    --main-accent-color: #0072BB;
+    --main-color: #1E2952;
+    --link-highlight-color: #1E2952;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: var(--ctp-mocha-base);
-        --main-text-color: var(--ctp-mocha-text);
-        --main-color: #00ABC9;
-        --main-accent-color: var(--nord-snowstorm-0);
-        --link-highlight-color: var(--nord-snowstorm-0);
+        --background-color: #212121;
+        --main-text-color: #F5F5F5;
+        --main-color: #0047AB;
+        --main-accent-color: #60A7E5;
+        --link-highlight-color: #0072BB;
     }
 }
 
