@@ -1,21 +1,23 @@
 ---
-title: Publications
-template: projectList
+bibliography: pubs.bib
+csl: nature-note.csl
 navbarName: Publications
-listSections:
-    -   name: Preprints
-        items:
-          - id: anderson2025yevo
-            name: "The yEvo Mutation Browser: Enhancing student understanding of experimental evolution and genomics through interactive data visualization"
-            links:
-              - link: "https://doi.org/10.1101/2025.07.18.665463"
-                name: biorXiv
-    -   name: Posters
-        items:
-            -   id: 2023-ebrc-pyflowbat
-                name: "Poster @ EBRC 2023: PyFlowBAT"
-                description: "Beres E, et al. PyFlowBAT: An Open-Source Software Package for Performing High-Throughput Batch Analysis of Flow Cytometry Data. Poster presented at: EBRC Annual Meeting; 2023 Jun 5-6; Evanston, IL."
-                links:
-                    -   link: ebrc/poster.png
-                        name: Poster
+suppress-bibliography: true
+template: page
+title: Publications
 ---
+
+## Preprints
+
+- Anderson, L., Schoch, J., Anastasia, E., Wang, V., Zeng, Z.,
+  Gorjifard, S. & Dunham, M. J. The yEvo mutation browser: Enhancing
+  student understanding of experimental evolution and genomics through
+  interactive data visualization. *bioRxiv* (2025)
+  doi:[10.1101/2025.07.18.665463](https://doi.org/10.1101/2025.07.18.665463)
+
+## Posters
+
+- Eleftheria Beres, Dreyer, K., Edelstein, H., Dray, K. & Leonard, J.
+  PyFlowBAT: An open-source software package for performing
+  high-throughput batch analysis of flow cytometry data. Presented at
+  EBRC 2023.

@@ -11,7 +11,7 @@ I also work on the [yEvo Mutation Browser](https://yevo.org/mutation-browser/) w
 
 ## My publications
 
-Check out my publications [here](https://scholar.google.com/citations?user=OSM64T8AAAAJ)!
+Check out my publications [here](../publications)!
 
 ## Previous research affiliations
 
