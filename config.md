@@ -5,7 +5,7 @@ navbarItems:
     -   name: Research
         link: /research
     -   name: Publications
-        link: /publications
+        link: https://scholar.google.com/citations?user=OSM64T8AAAAJ
     -   name: Teaching
         link: /teaching
     -   name: About

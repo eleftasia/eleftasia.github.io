@@ -1,11 +1,15 @@
 ---
-title: Eleftheria Anastasia Beres
+title: Eleftheria Anastasia
 template: home
 socials:
     -   name: GitHub
         link: https://github.com/eleftasia
     -   name: Bluesky
         link: https://bsky.app/profile/eleftasia.bsky.social
+    -   name: Google Scholar
+        link: https://scholar.google.com/citations?user=OSM64T8AAAAJ
+    -   name: ORCID
+        link: https://orcid.org/0009-0004-5593-0448
     -   name: Goodreads
         link: https://www.goodreads.com/user/show/65202258-elli-beres
     -   name: My CV
@@ -24,7 +28,6 @@ email: "eberes+web@cs.washington.edu"
 
 ## Hello, world!
 
-My name is Eleftheria \(Elli\) Beres.
+My name is Eleftheria.
 I'm a Computer Science and Engineering PhD student at the University of Washington.
-I'm fascinated by biology at the molecular and cellular level, where, biology looks a lot like a bunch of little machines each executing their own, mechanistic, molecular program.
-Almost like a lot of miniature computer programs!
+I'm interested in the code that encodes the programs that cells and biological machines execute.
