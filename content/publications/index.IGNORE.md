@@ -13,4 +13,4 @@ csl: nature-note.csl
 
 ## Posters
 
-- [@pyflowbatebrc] Presented at EBRC 2023.
+- [@pyflowbatebrc] Poster presented at: EBRC Annual Meeting; 2023 Jun 5-6; Evanston, IL

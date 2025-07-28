@@ -17,7 +17,7 @@ title: Publications
 
 ## Posters
 
-- Eleftheria Beres, Dreyer, K., Edelstein, H., Dray, K. & Leonard, J.
+- Anastasia, E., Dreyer, K., Edelstein, H., Dray, K. & Leonard, J.
   PyFlowBAT: An open-source software package for performing
-  high-throughput batch analysis of flow cytometry data. Presented at
-  EBRC 2023.
+  high-throughput batch analysis of flow cytometry data. Poster
+  presented at: EBRC Annual Meeting; 2023 Jun 5-6; Evanston, IL
