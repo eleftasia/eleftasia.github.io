@@ -13,12 +13,12 @@ socials:
     -   name: Goodreads
         link: https://www.goodreads.com/user/show/65202258-elli-beres
     -   name: My CV
-        link: https://github.com/ellifteria/cv/blob/main/beres-eleftheria-cv.pdf
+        link: https://github.com/eleftasia/cv/blob/main/beres-eleftheria-cv.pdf
 pronouns: "she/her/hers"
 profilePic:
     path: "/profilePic400x400.jpeg"
     link: "/profilePic.jpeg"
-    alt: "Elli Beres"
+    alt: "Eleftheria Anastasia Beres"
 pageLinks:
     -   name: My calendar
         link: /calendar

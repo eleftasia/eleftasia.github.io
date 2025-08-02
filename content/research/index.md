@@ -6,12 +6,12 @@ navbarName: Research
 
 ## My research
 
-I work on synthetic biology research at the [Seattle Hub for Synthetic biology](https://alleninstitute.org/division/seattle-hub-for-synthetic-biology/) and computing education research with [Dr. Michael Ernst](https://www.cs.washington.edu/homes/mernst/), [Dr. Amy Ko](https://faculty.washington.edu/ajko/), and [Dr. R. Benjamin Shapiro](https://benshapi.ro/).
+I work on synthetic biology research with [Dr. Sudarshan Pinglay](https://www.pinglay-lab.com/) at the [Seattle Hub for Synthetic biology](https://alleninstitute.org/division/seattle-hub-for-synthetic-biology/) and on computing education research with [Dr. R. Benjamin Shapiro](https://benshapi.ro/).
 I also work on the [yEvo Mutation Browser](https://yevo.org/mutation-browser/) with the [Dunham Lab](https://depts.washington.edu/dunhamlab/).
 
 ## My publications
 
-Check out my publications [here](../publications)!
+Check out [my publications here](../publications)!
 
 ## Previous research affiliations
 

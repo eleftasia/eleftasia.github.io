@@ -6,7 +6,7 @@ navbarName: About
 
 ## About me
 
-Hi! I'm Elli.
+Hi! I'm Eleftheria but I go by Elli.
 I'm a [Computer Science & Engineering](https://www.cs.washington.edu) Ph.D. student at the [University of Washington](https://www.washington.edu).
 Before coming to UW, I received a Bachelor of Science in [Computer Science](https://www.mccormick.northwestern.edu/computer-science/) from [Northwestern University](https://www.northwestern.edu/).
 

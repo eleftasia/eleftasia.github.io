@@ -8,7 +8,7 @@ navbarName: Teaching
 
 ### At UW
 
-As a graduate student at UW, I have been a helper for a Software Carpentry Workshop hosted by UW's eScience Institute. 
+As a graduate student at UW, I've been a helper for a Software Carpentry Workshop hosted by the eScience Institute.
 
 ### At NU
 

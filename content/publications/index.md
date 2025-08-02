@@ -9,7 +9,7 @@ title: Publications
 
 ## Preprints
 
-- Anderson, L., Schoch, J., Anastasia, E., Wang, V., Zeng, Z.,
+- Anderson, L., Schoch, J., **Anastasia, E.**, Wang, V., Zeng, Z.,
   Gorjifard, S. & Dunham, M. J. The yEvo mutation browser: Enhancing
   student understanding of experimental evolution and genomics through
   interactive data visualization. *bioRxiv* (2025)
@@ -17,7 +17,7 @@ title: Publications
 
 ## Posters
 
-- Anastasia, E., Dreyer, K., Edelstein, H., Dray, K. & Leonard, J.
+- **Anastasia, E.**, Dreyer, K., Edelstein, H., Dray, K. & Leonard, J.
   PyFlowBAT: An open-source software package for performing
   high-throughput batch analysis of flow cytometry data. Poster
   presented at: EBRC Annual Meeting; 2023 Jun 5-6; Evanston, IL
