@@ -10,10 +10,4 @@ navbarName: Calendar
 
 ## Schedule a meeting with me
 
-### Schedule a 30-meeting
-
 <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3svTM15nVK0S4PQg7SirihsJRjFp8_7ioDIHmsdObipJqFyGD-ddKGLGLoBEK3coAVcwe0-BZD?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
-
-### Schedule a 60-minute meeting
-
-<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3ke8p28aq6q7hRhwfQLALnr99G3uTrG98vSrqaqUQxb2juEloI9XI94IHsM1w9sSCRMSbWMT7T?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>

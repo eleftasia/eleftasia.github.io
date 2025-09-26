@@ -30,4 +30,5 @@ email: "eberes+web@cs.washington.edu"
 
 My name is Eleftheria.
 I'm a Computer Science and Engineering PhD student at the University of Washington.
+I do synthetic biology research at the [Seattle Hub for Synthetic Biology](https://alleninstitute.org/division/seattle-hub-for-synthetic-biology/).
 I'm interested in the code that encodes the programs that cells and biological machines execute.

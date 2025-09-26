@@ -8,7 +8,13 @@ navbarName: Teaching
 
 ### At UW
 
-As a graduate student at UW, I've been a helper for a Software Carpentry Workshop hosted by the eScience Institute.
+As a graduate student at UW, I've been a Teaching Assistant for:
+
+- Fall 2025: [CSE 583 Software Development for Data Scientists](https://uwseds.github.io/)
+
+With the [eScience Institute](https://escience.washington.edu/), I've also contributed to [Software Carpentry workshops](https://escience.washington.edu/data-science-learning/software-carpentry/) as:
+
+- Spring 2025: Helper for the Git lesson
 
 ### At NU
 
