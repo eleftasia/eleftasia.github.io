@@ -3,13 +3,13 @@ title: Eleftheria Anastasia
 template: home
 socials:
     -   name: GitHub
+        link: https://github.com/eleftasia
     -   name: Google Scholar
         link: https://scholar.google.com/citations?user=OSM64T8AAAAJ
     -   name: ORCID
         link: https://orcid.org/0009-0004-5593-0448
     -   name: My CV
         link: https://github.com/eleftasia/cv/blob/main/beres-eleftheria-cv.pdf
-        link: https://github.com/eleftasia
     -   name: Bluesky
         link: https://bsky.app/profile/eleftasia.bsky.social
 pronouns: "she/her/hers"
