@@ -1,0 +1,16 @@
+{{template "base" .}}
+
+{{define "header"}}
+<title>{{.SiteParams.name}} | {{.PageParams.title}}</title>
+{{end}}
+
+{{define "content"}}
+
+<h1>{{.PageParams.title}}</h1>
+<p class="subtitle">{{.PageParams.summary}}</p>
+
+<div class="main">
+    <p>If you are not redirected in {{ len (printf "%*s%*s" .PageParams.redirect.delay "" 1 "") }} seconds, <a href="{{.PageParams.redirect.url}}">click here</a>.</p>
+</div>
+
+{{end}}
