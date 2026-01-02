@@ -1,43 +1,54 @@
 {{define "base"}}
+<!-- unless otherwise noted, templates are provided by the importing template. -->
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
-<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        {{if .PageParams.redirect }}
+        <meta http-equiv="refresh" content="{{.PageParams.redirect.delay}}; URL={{.PageParams.redirect.url}}" />
+        {{end}}
 
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style/main.css">
+        <title>{{template "title" .}}</title>
+        
+        <link rel="stylesheet" href="/style/main.css">
+        
+        {{template "head" .}} <!-- provided by `head.html` -->
 
-    {{if .PageParams.redirect }}
-    <meta http-equiv="refresh" content="{{.PageParams.redirect.delay}}; URL={{.PageParams.redirect.url}}" />
-    {{end}}
+        {{template "favicons" .}} <!-- provided by `favicons.html` -->
+        
+        <script>
+            if (typeof main === "undefined"){
+                var main = function() {};
+            }
+            main();
+        </script>
+        
+    </head>
 
-    {{template "header" .}}
+    <body class="iawriterduo-regular">
+        <header>
+            {{template "header" .}}
+        </header>
+        
+        <nav class="menu">
+            {{template "nav-menu" .}} <!-- provided by `nav.html` -->
+        </nav>
 
-    {{template "favicons" .}}
-
-    <script>
-        if (typeof main === "undefined"){
-            var main = function() {};
-        }
-        main();
-    </script>
-
-</head>
-
-<body class="iawriterduo-regular">
-<div class="content">
-    <header>
-        {{template "icon" .}}
-        {{template "navbar" .}}
-    </header>
-
-    {{template "content" .}}
-
-    <footer>
-        {{template "footer" .}}
-    </footer>
-</div>
-</body>
+        <nav class="breadcrumb">
+            {{template "nav-breadcrumb" .}} <!-- provided by `breadcrumb.html` -->
+        </nav>
+        
+        <main>
+            {{template "main" .}}
+        </main>
+        
+        <footer>
+            {{template "footer" .}} <!-- provided by `footer.html` -->
+        </footer>
+    </body>
 
 </html>
 {{end}}
