@@ -18,6 +18,10 @@
         {{template "head" .}} <!-- provided by `head.html` -->
 
         {{template "favicons" .}} <!-- provided by `favicons.html` -->
+
+        {{if .SiteParams.colorChange}}
+        
+        {{end}}
         
         <script>
             if (typeof main === "undefined"){
