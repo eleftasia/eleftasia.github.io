@@ -1,4 +1,16 @@
 {{define "colorChange"}}
+<style id="additionalStyle">
+    :root {
+        --main-color: #D4AF37;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --main-color: #D4AF37;
+        }
+    }
+</style>
+
 <script>
 var main = function(){
     let style = document.getElementById("additionalStyle");
