@@ -1,7 +1,7 @@
 {{define "nav-menu"}}
 
 <hr>
-<div class="navigation">
+<p>
     <span class="triple-line">⫻</span>
     {{range $nav := .SiteParams.navbarItems}}
     {{if eq $.PageParams.navbarName $nav.name}}
@@ -12,7 +12,7 @@
     <span class="triple-line">⫻</span>
     {{end}}
     {{end}}
-</div>
+</p>
 <hr>
 
 {{end}}

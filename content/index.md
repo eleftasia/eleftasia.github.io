@@ -13,10 +13,6 @@ socials:
     -   name: Bluesky
         link: https://bsky.app/profile/eleftasia.bsky.social
 pronouns: "she/her/hers"
-profilePic:
-    path: "/profilePic400x400.jpeg"
-    link: "/profilePic.jpeg"
-    alt: "Eleftheria Anastasia Beres"
 pageLinks:
     -   name: My calendar
         link: /calendar
@@ -26,7 +22,6 @@ email: "eberes+web@cs.washington.edu"
 
 ## `Hello, world!`
 
-My name is Eleftheria.
-I'm a PhD student studying at the Paul G. Allen School of Computer Science & Engineering at the University of Washington.
-I do synthetic biology research at the [Seattle Hub for Synthetic Biology](https://alleninstitute.org/division/seattle-hub-for-synthetic-biology/).
-I'm interested in the information stored in genomes—the code that encodes the programs that biological machines like cells execute.
+My name is Elli!
+I'm a PhD student at the Paul G. Allen School of Computer Science & Engineering at the University of Washington.
+I work on synthetic biology research as part of [the Pinglay Lab](https://pinglay-lab.com) at the [Seattle Hub for Synthetic Biology](https://alleninstitute.org/division/seattle-hub-for-synthetic-biology/).
