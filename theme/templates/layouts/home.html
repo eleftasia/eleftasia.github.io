@@ -1,10 +1,10 @@
 {{template "base" .}}
 
-{{define "header"}}
-<title>{{.SiteParams.name}} | Home </title>
-{{end}}
+{{define "title"}}{{.SiteParams.name}} | Home{{end}}
 
-{{define "content"}}
+{{define "header"}}{{end}}
+
+{{define "main"}}
 
 <div class="section" id="profileInfo">
     <h1>{{.PageParams.title}}</h1>

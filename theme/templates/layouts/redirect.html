@@ -1,10 +1,10 @@
 {{template "base" .}}
 
-{{define "header"}}
-<title>{{.SiteParams.name}} | {{.PageParams.title}}</title>
-{{end}}
+{{define "title"}}{{.SiteParams.name}} |  {{.PageParams.title}}{{end}}
 
-{{define "content"}}
+{{define "header"}}{{end}}
+
+{{define "main"}}
 
 <h1>{{.PageParams.title}}</h1>
 <p class="subtitle">{{.PageParams.summary}}</p>
