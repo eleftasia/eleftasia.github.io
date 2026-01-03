@@ -13,9 +13,6 @@ socials:
     -   name: Bluesky
         link: https://bsky.app/profile/eleftasia.bsky.social
 pronouns: "she/her/hers"
-pageLinks:
-    -   name: My calendar
-        link: /calendar
 navbarName: Home
 email: "eberes+web@cs.washington.edu"
 ---

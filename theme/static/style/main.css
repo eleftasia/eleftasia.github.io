@@ -1,8 +1,63 @@
 @import 'fonts/fonts.css';
 
 /*
+VARIABLES
+*/
+
+:root{
+    --background-color: #eff1f5;
+    --foreground-color: #4c4f69;
+    --link-color: #04a5e5;
+    --ansi-0: #5c5f77;
+    --ansi-1: #d20f39;
+    --ansi-2: #40a02b;
+    --ansi-3: #df8e1d; 
+    --ansi-4: #1e66f5;
+    --ansi-5: #ea76cb;
+    --ansi-6: #179299;
+    --ansi-7: #acb0be;
+    --ansi-8: #6c6f85;
+    --ansi-9: #d20f39;
+    --ansi-10: #40a02b;
+    --ansi-11: #df8e1d; 
+    --ansi-12: #1e66f5;
+    --ansi-13: #ea76cb;
+    --ansi-14: #179299;
+    --ansi-15: #fdfdca;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root{
+        --background-color: #1e1e1e;
+        --foreground-color: #b8bcb9;
+        --link-color: #005bbb;
+        --ansi-0: #3a3c43;
+        --ansi-1: #be3e48;
+        --ansi-2: #869a3a;
+        --ansi-3: #c4a535; 
+        --ansi-4: #4e76a1;
+        --ansi-5: #855b8d;
+        --ansi-6: #568ea3;
+        --ansi-7: #b8bcb9;
+        --ansi-8: #888987;
+        --ansi-9: #fb001e;
+        --ansi-10: #0e712e;
+        --ansi-11: #c37033; 
+        --ansi-12: #176ce3;
+        --ansi-13: #fb0067;
+        --ansi-14: #2d6f6c;
+        --ansi-15: #fcffb8;
+    }
+}
+
+/*
 GENERAL SETUP
 */
+
+:root {
+    --link-text-color: var(--link-color);
+    --link-hover-text-color: var(--ansi-12);
+}
 
 html, body {
     margin: 0;
@@ -13,7 +68,7 @@ body {
     width: 80%;
     margin: auto;
     font-size: 16px;
-    color: var(--main-text-color);
+    color: var(--foreground-color);
     line-height: 1.7em;
     
     -webkit-font-feature-settings: "kern", "liga";
@@ -42,15 +97,15 @@ LINKS
 
 a {
     text-decoration: underline;
-    text-decoration-color: var(--main-color);
+    text-decoration-color: var(--link-text-color);
     text-decoration-thickness: .125em;
     text-underline-offset: 3px;
-    color: var(--main-accent-color);
+    color: var(--link-text-color);
     background: transparent;
 }
 a:hover, a:focus {
-    color: var(--main-color);
-    text-decoration-color: var(--main-color);
+    color: var(--link-hover-text-color);
+    text-decoration-color: var(--link-hover-text-color);
 }
 a:focus {
     outline: thin dotted var(--main-color);
@@ -74,7 +129,7 @@ FIGCHAR
 
 a.figchar {
     text-decoration: none;
-    color: black;
+    color: var(--ansi-13);
 }
 
 /*
@@ -87,14 +142,14 @@ nav.menu p {
 
 nav.menu a.navbarItem {
     border-radius: 5px;
-    border: 1px var(--background-color) solid;
+    border: 1px --background-color none;
     overflow: hidden;
 }
 nav.menu a.selectedNavbarItem, nav.menu a.selectedNavbarItem:hover, nav.menu a.selectedNavbarItem:focus {
-    border: 1px var(--link-highlight-color) solid;
-    background-color: var(--link-highlight-color);
+    border: 1px var(--link-hover-text-color) solid;
+    background-color: var(--link-hover-text-color);
     color: var(--background-color);
-    text-decoration-color: var(--link-highlight-color);
+    text-decoration-color: var(--link-hover-text-color);
     text-decoration: none;
 }
 
