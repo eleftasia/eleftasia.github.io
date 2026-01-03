@@ -14,16 +14,101 @@
         <link rel="stylesheet" href="/style/main.css">
         
         
-<a class="figchar" href="/">
-<pre>
-      ___              ___  __                                    
-     /\_ \           /'___\/\ \__                  __             
-   __\//\ \      __ /\ \__/\ \ ,_\    __      ____/\_\     __     
- /'__`\\ \ \   /'__`\ \ ,__\\ \ \/  /'__`\   /',__\/\ \  /'__`\   
-/\  __/ \_\ \_/\  __/\ \ \_/ \ \ \_/\ \L\.\_/\__, `\ \ \/\ \L\.\_ 
-\ \____\/\____\ \____\\ \_\   \ \__\ \__/.\_\/\____/\ \_\ \__/.\_\
- \/____/\/____/\/____/ \/_/    \/__/\/__/\/_/\/___/  \/_/\/__/\/_/
+<div id="figcontainer">
+<a class="figlink" href="/">
+<pre class="figchar ansi9">
+        
+   __   
+ /'__`\ 
+/\  __/ 
+\ \____\
+ \/____/
+       
+ 
+</pre><pre class="figchar ansi10">   
+ ___      
+/\_ \     
+\//\ \    
+  \ \ \   
+   \_\ \_ 
+   /\____\
+   \/____/
+          
+          
+</pre><pre class="figchar ansi11">
+
+        
+   __   
+ /'__`\ 
+/\  __/ 
+\ \____\
+ \/____/
+        
+        
+</pre><pre class="figchar ansi12">
+   ___  
+ /'___\ 
+/\ \__/ 
+\ \ ,__\
+ \ \ \_/
+  \ \_\ 
+   \/_/ 
+        
+        
+</pre><pre class="figchar ansi13">
+ __      
+/\ \__   
+\ \ ,_\  
+ \ \ \/  
+  \ \ \_ 
+   \ \__\
+    \/__/
+         
+
+</pre><pre class="figchar ansi14">
+ 
+          
+          
+   __     
+ /'__`\   
+/\ \L\.\_ 
+\ \__/.\_\
+ \/__/\/_/
+       
+ 
+</pre><pre class="figchar ansi9">
+        
+        
+        
+  ____  
+ /',__\ 
+/\__, `\
+\/\____/
+ \/___/ 
+     
+ 
+</pre><pre class="figchar ansi10">
+       
+ __    
+/\_\   
+\/\ \  
+ \ \ \ 
+  \ \_\
+   \/_/
+      
+   
+</pre><pre class="figchar ansi11">
+          
+          
+   __     
+ /'__`\   
+/\ \L\.\_ 
+\ \__/.\_\
+ \/__/\/_/
+          
+          
 </pre>
+</div>
 </a>
  
 
@@ -36,6 +121,36 @@
 
  
 
+        
+        
+<style id="additionalStyle">
+</style>
+
+<script>
+var main = function(){
+    let style = document.getElementById("additionalStyle");
+    let colors = [
+        "ansi-9",
+        "ansi-10",
+        "ansi-11",
+        "ansi-12",
+        "ansi-13",
+        "ansi-14",
+    ];
+    var randomColor = colors[Math.floor(Math.random() * colors.length)];
+    style.innerHTML = `
+    :root {
+        --link-text-color: var(--${randomColor});
+    }
+    
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --link-text-color: var(--${randomColor});
+        }
+    }`
+}
+</script>
+ 
         
         
         <script>

@@ -1,36 +1,27 @@
 {{define "colorChange"}}
 <style id="additionalStyle">
-    :root {
-        --main-color: #D4AF37;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --main-color: #D4AF37;
-        }
-    }
 </style>
 
 <script>
 var main = function(){
     let style = document.getElementById("additionalStyle");
     let colors = [
-        "#D52D00",
-        "#EF7627",
-        "#FF9A56",
-        "#D162A4",
-        "#B55690",
-        "#A30262"
+        "ansi-9",
+        "ansi-10",
+        "ansi-11",
+        "ansi-12",
+        "ansi-13",
+        "ansi-14",
     ];
     var randomColor = colors[Math.floor(Math.random() * colors.length)];
     style.innerHTML = `
     :root {
-        --main-color: ${randomColor};
+        --link-text-color: var(--${randomColor});
     }
     
     @media (prefers-color-scheme: dark) {
         :root {
-            --main-color: ${randomColor};
+            --link-text-color: var(--${randomColor});
         }
     }`
 }

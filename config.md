@@ -8,4 +8,5 @@ navbarItems:
         link: /teaching
     -   name: About
         link: /about
+colorChange: true
 ---
