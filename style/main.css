@@ -55,8 +55,8 @@ GENERAL SETUP
 */
 
 :root {
-    --link-text-color: var(--link-color);
-    --link-hover-text-color: var(--ansi-12);
+    --link-text-color: var(--ansi-12);
+    --link-hover-text-color: var(--link-color);
 }
 
 html, body {
@@ -65,7 +65,6 @@ html, body {
 }
 
 body {
-    width: 80%;
     margin: auto;
     font-size: 16px;
     color: var(--foreground-color);
@@ -75,6 +74,18 @@ body {
     -moz-font-feature-settings: "kern", "liga";
     font-feature-settings: "kern", "liga";
     background-color: var(--background-color);
+}
+
+@media (width >= 900px) {
+  body {
+    width: 80%;
+  }
+}
+
+@media not (width >= 800px) {
+  body {
+    margin: 10px 10px 10px 10px;
+  }
 }
 
 /*
@@ -107,11 +118,6 @@ a:hover, a:focus {
     color: var(--link-hover-text-color);
     text-decoration-color: var(--link-hover-text-color);
 }
-a:focus {
-    outline: thin dotted var(--main-color);
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px;
-}
 a:hover, a:active {
     outline: 0;
 }
@@ -120,16 +126,23 @@ a:hover, a:active {
 FIGCHAR
 */
 
-.figchar pre {
+.figlink pre {
     font-family: "Source Code pro";
     font-size: x-small;
     line-height: 100%;
     font-weight: 900;
 }
+pre.figchar {
+    display: inline-block;
+}
 
-a.figchar {
+a.figlink {
     text-decoration: none;
-    color: var(--ansi-13);
+}
+
+#figcontainer {
+    overflow-x: scroll;
+    white-space: nowrap;
 }
 
 /*
@@ -167,4 +180,72 @@ HOME PAGE
 
 #socials p{
     margin: 0;
+}
+
+/*
+ANSI COLOR CLASSES
+*/
+
+.ansi0 {
+    color: var(--ansi-0);
+}
+
+.ansi1 {
+    color: var(--ansi-1);
+}
+
+.ansi2 {
+    color: var(--ansi-2);
+}
+
+.ansi3 {
+    color: var(--ansi-3);
+}
+
+.ansi4 {
+    color: var(--ansi-4);
+}
+
+.ansi5 {
+    color: var(--ansi-5);
+}
+
+.ansi6 {
+    color: var(--ansi-6);
+}
+
+.ansi7 {
+    color: var(--ansi-7);
+}
+
+.ansi8 {
+    color: var(--ansi-8);
+}
+
+.ansi9 {
+    color: var(--ansi-9);
+}
+
+.ansi10 {
+    color: var(--ansi-10);
+}
+
+.ansi11 {
+    color: var(--ansi-11);
+}
+
+.ansi12 {
+    color: var(--ansi-12);
+}
+
+.ansi13 {
+    color: var(--ansi-13);
+}
+
+.ansi14 {
+    color: var(--ansi-14);
+}
+
+.ansi15 {
+    color: var(--ansi-15);
 }
