@@ -126,14 +126,12 @@ a:hover, a:active {
 FIGCHAR
 */
 
-.figlink pre {
+pre.figchar {
+    display: inline-block;
     font-family: "Source Code pro";
     font-size: x-small;
     line-height: 100%;
     font-weight: 900;
-}
-pre.figchar {
-    display: inline-block;
 }
 
 a.figlink {
