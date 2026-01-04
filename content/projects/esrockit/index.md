@@ -18,8 +18,8 @@ template: page
 
 ESRoCKit, or the **E**SRoCKit **S**imulated **R**obotic **C**reatures tool**Kit**, is a collection of (currently) 2 open-source software libraries on Github:
 
-- [**ESRoCKit-LachesisPy**](https://github.com/ellifteria/ESRoCKit-LachesisPy): A Python library for controlling simulated robots in PyBullet.
-- [**ESRoCKit-ClothoJl**](https://github.com/ellifteria/ESRoCKit-ClothoJl): A Julia library for generating simulated robot specification XML files.
+- [**ESRoCKit-LachesisPy**](https://github.com/eleftasia/ESRoCKit-LachesisPy): A Python library for controlling simulated robots in PyBullet.
+- [**ESRoCKit-ClothoJl**](https://github.com/eleftasia/ESRoCKit-ClothoJl): A Julia library for generating simulated robot specification XML files.
 
 ## Background
 
@@ -33,14 +33,14 @@ Enter, ESRoCKit.
 
 ## ClothoJl
 
-[ESRoCKit-ClothoJl](https://github.com/ellifteria/ESRoCKit-ClothoJl) is a native Julia library for generating simulated robot specification XML files.
+[ESRoCKit-ClothoJl](https://github.com/eleftasia/ESRoCKit-ClothoJl) is a native Julia library for generating simulated robot specification XML files.
 The name is inspired by [Clotho](https://wikipedia.org/wiki/Clotho), the youngest of the [Moirai](https://wikipedia.org/wiki/Moirai), aka the Three Fates, and is responsible for spinning the thread of mortals' lives.
 Currently, ClothoJl is capable of creating:
 
 - [URDF](http://wiki.ros.org/urdf) files: a standard format for defining robot bodies
 - [ENNF]() files: a novel format I developed for defining robot neural networks
 
-ClothoJl runs on a native Julia XML file writer I created for this project, also found on GitHub [here](https://github.com/ellifteria/JuliaXMLWriter).
+ClothoJl runs on a native Julia XML file writer I created for this project, also found on GitHub [here](https://github.com/eleftasia/JuliaXMLWriter).
 
 ### Future steps
 
@@ -51,6 +51,6 @@ Additionally, ClothoJl can and should be translated into Python to allow for a P
 
 ## LachesisPy
 
-[ESRoCKit-LachesisPy](https://github.com/ellifteria/ESRoCKit-LachesisPy) is a Python library for controlling simulated robots in the [PyBullet physics engine](https://pybullet.org/).
+[ESRoCKit-LachesisPy](https://github.com/eleftasia/ESRoCKit-LachesisPy) is a Python library for controlling simulated robots in the [PyBullet physics engine](https://pybullet.org/).
 Like ClothoJl, LachesisPy is also named after one of the Moirai, [Lachesis](https://wikipedia.org/wiki/Lachesis).
 Just as Lachesis measures the thread of life spun by Clotho and determines destiny, LachesisPy controls the movement of the simulated robots defined by ClothoJl in the physics engine.

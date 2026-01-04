@@ -15,9 +15,9 @@ listSections:
                 links:
                     -   link: esrockit/
                         name: More
-                    -   link: https://github.com/ellifteria/ESRoCKit-LachesisPy
+                    -   link: https://github.com/eleftasia/ESRoCKit-LachesisPy
                         name: Repo 1
-                    -   link: https://github.com/ellifteria/ESRoCKit-ClothoJl
+                    -   link: https://github.com/eleftasia/ESRoCKit-ClothoJl
                         name: Repo 2
             -   id: pyflowbat
                 location: Leonard Lab @ NU
@@ -40,14 +40,14 @@ listSections:
                 links:
                     -   link: https://spreadsheet2code.onrender.com
                         name: Link
-                    -   link: https://github.com/ellifteria/spreadsheet-js
+                    -   link: https://github.com/eleftasia/spreadsheet-js
                         name: Repo
             -   id: grafe
                 date: Jan 2024–Present
                 name: "grafē"
                 description: "A simple static site generator written in Go. It's what's powering this website!"
                 links:
-                    -   link: https://github.com/ellifteria/grafe
+                    -   link: https://github.com/eleftasia/grafe
                         name: Repo
                     -   link: https://grafe-ssg.onrender.com/
                         name: Docs
@@ -58,14 +58,14 @@ listSections:
                 links:
                     -   link: munin/
                         name: More
-                    -   link: https://github.com/ellifteria/munin
+                    -   link: https://github.com/eleftasia/munin
                         name: Repo
             -   id: fantasy-map
                 date: July 2023
                 name: "Fantasy Map Generator"
                 description: "A simple procedural map generator in Go. A project I need to come back to in the future!"
                 links:
-                    -   link: https://github.com/ellifteria/fantasy-map-builder
+                    -   link: https://github.com/eleftasia/fantasy-map-builder
                         name: Repo
             -   id: imposter-sudoku
                 date: Apr 2023
@@ -74,7 +74,7 @@ listSections:
                 links:
                     -   link: imposter-sudoku/
                         name: More
-                    -   link: https://github.com/ellifteria/ImposterSudoku.py
+                    -   link: https://github.com/eleftasia/ImposterSudoku.py
                         name: Repo
             -   id: pyro-corpus
                 date: Feb 2023–Mar 2023
@@ -83,6 +83,6 @@ listSections:
                 links:
                     -   link: pyrocorpus/
                         name: More
-                    -   link: https://github.com/ellifteria/pyro-corpus
+                    -   link: https://github.com/eleftasia/pyro-corpus
                         name: Repo
 ---

@@ -74,6 +74,8 @@ body {
     -moz-font-feature-settings: "kern", "liga";
     font-feature-settings: "kern", "liga";
     background-color: var(--background-color);
+
+    max-width: 100vw;
 }
 
 @media (width >= 900px) {
@@ -129,7 +131,7 @@ FIGCHAR
 pre.figchar {
     display: inline-block;
     font-family: "Source Code pro";
-    font-size: x-small;
+    font-size: min(1.5vw, 12px);
     line-height: 100%;
     font-weight: 900;
 }
@@ -141,6 +143,27 @@ a.figlink {
 #figcontainer {
     overflow-x: scroll;
     white-space: nowrap;
+}
+
+/*
+IMAGES
+*/
+
+img {
+    border: 0;
+    border-radius: 10%;
+    max-width: 30%;
+}
+
+/*
+HORIZONTAL RULE
+*/
+
+hr {
+	height: 3px;
+	background-color: var(--foreground-color);
+	border: none;
+	border-radius: 10px;
 }
 
 /*
@@ -170,6 +193,7 @@ FOOTER
 
 footer p{
     margin: 0;
+    font-size: 14px;
 }
 
 /*

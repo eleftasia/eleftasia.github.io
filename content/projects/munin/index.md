@@ -11,7 +11,7 @@ It can be used to study or visualize the memory complexity of algorithms.
 At the moment, programs needs to be written in muninASM (an assembly-inspired language) or in muninSBasic (a BASIC inspired language).
 A scripting language and web UI are currently in development!
 
-Check out the [GitHub repo here!](https://github.com/ellifteria/munin)
+Check out the [GitHub repo here!](https://github.com/eleftasia/munin)
 
 Read more about Munin below!
 
@@ -59,7 +59,7 @@ Here, I describe Munin and use it to analyze the space complexity of four algori
 
 Munin
 
-Munin is a Rust program that comes with the ability to run complexity analysis on 4 different Munin assembly programs. Munin can be downloaded from the GitHub repository at http://www.github.com/ellifteria/munin. The repository contains instructions for installing and running Munin.
+Munin is a Rust program that comes with the ability to run complexity analysis on 4 different Munin assembly programs. Munin can be downloaded from the GitHub repository at http://www.github.com/eleftasia/munin. The repository contains instructions for installing and running Munin.
 
 Munin creates a virtual machine with sets of input, single-bit, and regular variables and three operating phases: IDLE, INPUT, and EXECUTION. The default and start phase is the IDLE phase. During the IDLE phase, the Munin device can take four actions. It can be moved into either the INPUT or EXECUTION phase, it can print out the most recently stored variable values, it can load a program, or it can clear the device memory. However, no memory can be written during the IDLE phase.
 
@@ -73,4 +73,4 @@ By separating memory in this way, Munin can separately determine the size of the
 
 ---
 
-For results and more information, check out [the write-up here](https://github.com/ellifteria/munin/blob/8641e4e901234eeab4e0c219fe8bafe83deacdd0/writeup/eberes-final-335.pdf)!
+For results and more information, check out [the write-up here](https://github.com/eleftasia/munin/blob/8641e4e901234eeab4e0c219fe8bafe83deacdd0/writeup/eberes-final-335.pdf)!

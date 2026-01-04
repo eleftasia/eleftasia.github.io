@@ -5,7 +5,7 @@ summary: "Recursive virtual robot body generation. Created as part of my final p
 template: page
 ---
 
-Check out the [GitHub repo here!](https://github.com/ellifteria/pyro-corpus)
+Check out the [GitHub repo here!](https://github.com/eleftasia/pyro-corpus)
 
 # pyro-corpus: recursive virtual robot body generation
 
