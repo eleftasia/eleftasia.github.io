@@ -15,9 +15,11 @@ I also work on the [yEvo Mutation Browser](https://yevo.org/mutation-browser/) w
 
 ## Publications
 
+- [@Dreyer2025GCAD]
+
 ### Preprints
 
-- [@Dreyer2025GCAD]
+- [@Dreyer2025GCADpreprint]
 - [@Anderson2025yEvo]
 
 ### Posters

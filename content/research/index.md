@@ -9,7 +9,7 @@ title: Research
 
 ## My research
 
-I do synthetic biology research in the lab of [Dr. Sudarshan
+I do synthetic biology research in the [lab of Dr. Sudarshan
 Pinglay](https://www.pinglay-lab.com/) at the [Seattle Hub for Synthetic
 biology](https://alleninstitute.org/division/seattle-hub-for-synthetic-biology/)
 and computing education research with [Dr. R. Benjamin
@@ -21,6 +21,12 @@ Lab](https://depts.washington.edu/dunhamlab/).
 
 ## Publications
 
+- Dreyer, K. S., Nguyen, A. V., Bora, G. G., Redus, L. E., Edelstein, H.
+  I., Garcia, J. J., **Anastasia, E.**, Dray, K. E., Leonard, J. N. &
+  Mangan, N. M. GCAD: A computational framework for mammalian genetic
+  program computer-aided design. *ACS Synthetic Biology*
+  doi:[10.1021/acssynbio.5c00670](https://doi.org/10.1021/acssynbio.5c00670)
+
 ### Preprints
 
 - Dreyer, K. S., Nguyen, A. V., Bora, G. G., Redus, L. E., Edelstein, H.
@@ -28,7 +34,7 @@ Lab](https://depts.washington.edu/dunhamlab/).
   Mangan, N. M. GCAD: A computational framework for mammalian genetic
   program computer-aided design. *bioRxiv* (2025)
   doi:[10.1101/2025.08.23.671908](https://doi.org/10.1101/2025.08.23.671908)
-- Anderson, L., Schoch, J., **Anastasia, E.**, Wang, V., Zeng, Z.,
+- Anderson, L., Schoch, J., Anastasia, E., Wang, V., Zeng, Z.,
   Gorjifard, S. & Dunham, M. J. The yEvo mutation browser: Enhancing
   student understanding of experimental evolution and genomics through
   interactive data visualization. *bioRxiv* (2025)
