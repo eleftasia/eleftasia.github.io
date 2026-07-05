@@ -29,12 +29,11 @@ Lab](https://depts.washington.edu/dunhamlab/).
 
 ### Preprints
 
-- Dreyer, K. S., Nguyen, A. V., Bora, G. G., Redus, L. E., Edelstein, H.
-  I., Garcia, J., **Anastasia, E.**, Dray, K. E., Leonard, J. N. &
-  Mangan, N. M. GCAD: A computational framework for mammalian genetic
-  program computer-aided design. *bioRxiv* (2025)
-  doi:[10.1101/2025.08.23.671908](https://doi.org/10.1101/2025.08.23.671908)
-- Anderson, L., Schoch, J., Anastasia, E., Wang, V., Zeng, Z.,
+- Koeppel, J., Keith, A., Sgrizzi, S., Chen, P., Daza, R. M., Quaisar,
+  F., **Anastasia, E.**, Song, Z., Shendure, J. & Pinglay, S. Gigabase-scale
+  deletion scanning of the human genome. *bioRxiv* (2026)
+  doi:[10.64898/2026.05.29.728882](https://doi.org/10.64898/2026.05.29.728882)
+- Anderson, L., Schoch, J., **Anastasia, E.**, Wang, V., Zeng, Z.,
   Gorjifard, S. & Dunham, M. J. The yEvo mutation browser: Enhancing
   student understanding of experimental evolution and genomics through
   interactive data visualization. *bioRxiv* (2025)

@@ -19,7 +19,7 @@ I also work on the [yEvo Mutation Browser](https://yevo.org/mutation-browser/) w
 
 ### Preprints
 
-- [@Dreyer2025GCADpreprint]
+- [@Koeppel2026Shredseq]
 - [@Anderson2025yEvo]
 
 ### Posters
