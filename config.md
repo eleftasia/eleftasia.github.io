@@ -1,5 +1,6 @@
 ---
 name: eleftasia
+homepageName: "Eleftheria Anastasia"
 webAddress: "eleft.asia"
 navbarItems:
     -   name: Research
