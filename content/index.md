@@ -10,8 +10,8 @@ socials:
         link: https://orcid.org/0009-0004-5593-0448
     -   name: My CV
         link: https://github.com/eleftasia/cv/blob/main/beres-eleftheria-cv.pdf
-    -   name: Bluesky
-        link: https://bsky.app/profile/eleftasia.bsky.social
+    # -   name: Bluesky
+    #     link: https://bsky.app/profile/eleftasia.bsky.social
 pronouns: "she/her/hers"
 navbarName: Home
 email: "eberes+web@cs.washington.edu"
@@ -20,5 +20,5 @@ email: "eberes+web@cs.washington.edu"
 ## `Hello, world!`
 
 My name is Elli!
-I'm a PhD student at the Paul G. Allen School of Computer Science & Engineering at the University of Washington.
+I'm a PhD student at the [Paul G. Allen School of Computer Science & Engineering](https://www.cs.washington.edu/) at the [University of Washington](https://www.washington.edu/).
 I work on synthetic biology research as part of [the Pinglay Lab](https://pinglay-lab.com) at the [Seattle Hub for Synthetic Biology](https://alleninstitute.org/division/seattle-hub-for-synthetic-biology/).

@@ -4,9 +4,7 @@ template: page
 navbarName: Teaching
 ---
 
-## Teaching experience
-
-### At UW
+## Teaching experience at the University of Washington
 
 As a graduate student at UW, I've been a Teaching Assistant for:
 
@@ -16,7 +14,7 @@ With the [eScience Institute](https://escience.washington.edu/), I've also contr
 
 - Spring 2025: Helper for the Git lesson
 
-### At NU
+## Teaching experience at Northwestern University
 
 As an undergrad at Northwestern, I was a Peer Mentor \(undergrad TA\) for the following courses:
 

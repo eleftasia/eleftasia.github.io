@@ -4,11 +4,9 @@ template: page
 navbarName: About
 ---
 
-## About me
+[![Eleftheria Anastasia Beres](/profilePic400x400.jpg)](/profilePic.png)
 
-[![Eleftheria Anastasia Beres](/profilePic400x400.jpeg)](/profilePic.jpeg)
-
-Hi! My name Eleftheria, but I go by Elli!
+Hi! My name is Eleftheria, but I go by Elli!
 And I use she/her/hers pronouns.
 
 I'm a [Computer Science & Engineering](https://www.cs.washington.edu) PhD student at the [University of Washington](https://www.washington.edu).
@@ -20,5 +18,5 @@ I'm the Secretary for the oSTEM chapter at UW.
 
 In my free time, I love reading, playing soccer, weightlifting, hiking, biking, and photography!
 My favorite genres are fantasy, science fiction, and literary and contemporary fiction.
-Some of my favorite authors include Taylor Jenkins Reid, Christopher Ruocchio, Ursula K LeGuin, Adrian Tchaikovsky and Brandon Sanderson.
+Some of my favorite authors include Taylor Jenkins Reid, Christopher Ruocchio, Ursula K. Le Guin, Adrian Tchaikovsky and Brandon Sanderson.
 I love exploring Seattle and photographing the city!

@@ -16,34 +16,32 @@
 
     {{if .PageParams.summary }}
     <p class="subtitle">
-        <span class="triple-line">⫻</span>
+        <span class="triple-line">|</span>
         {{.PageParams.summary}}
-        <span class="triple-line">⫻</span>
+        <span class="triple-line">|</span>
     </p>
     {{end}}
 
     <div id="socials">
         {{if .PageParams.pronouns}}
-        <p><span class="triple-line">⫻</span>
-            {{.PageParams.pronouns}}
-            <span class="triple-line">⫻</span>
+        <p><span class="triple-line">|</span>
+            {{.PageParams.pronouns}}<span class="triple-line">|</span>
         </p>
         {{end}}
         {{if .PageParams.email}}
         <p>
-            <span class="triple-line">⫻</span> <a href="mailto:{{.PageParams.email}}">{{.PageParams.email}}</a> <span class="triple-line">⫻</span>
+            <span class="triple-line">|</span>
+            <a href="mailto:{{.PageParams.email}}">{{.PageParams.email}}</a><span class="triple-line">|</span>
         </p>
         {{end}}
-        <p><span class="triple-line">⫻</span>
+        <p><span class="triple-line">|</span>
             {{range $social := .PageParams.socials}}
-            <a href="{{$social.link}}" {{if eq $social.name "Mastodon"}}rel="me"{{end}}>{{$social.name}}</a>
-            <span class="triple-line">⫻</span>
+            <a href="{{$social.link}}" {{if eq $social.name "Mastodon"}}rel="me"{{end}}>{{$social.name}}</a><span class="triple-line">|</span>
             {{end}}
         </p>
         {{range $links := .PageParams.pageLinks}}
-        <p><span class="triple-line">⫻</span>
-            <a href="{{$links.link}}">{{$links.name}}</a>
-            <span class="triple-line">⫻</span>
+        <p><span class="triple-line">|</span>
+            <a href="{{$links.link}}">{{$links.name}}</a><span class="triple-line">|</span>
         </p>
         {{end}}
     </div>
