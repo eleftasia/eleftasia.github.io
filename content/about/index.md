@@ -16,7 +16,7 @@ In addition to my research, I'm very passionate about making computing and scien
 I'm dedicated to working to make computing a safe, supportive, and welcoming field for all, and especially for women, transgender and nonbinary people, and members of the LGBTQ+ community.
 I'm the Secretary for the oSTEM chapter at UW.
 
-In my free time, I love reading, playing soccer, weightlifting, hiking, biking, and photography!
+In my free time, I love reading, playing soccer, weightlifting, hiking, birding, and photography!
 My favorite genres are fantasy, science fiction, and literary and contemporary fiction.
-Some of my favorite authors include Taylor Jenkins Reid, Christopher Ruocchio, Ursula K. Le Guin, Adrian Tchaikovsky and Brandon Sanderson.
-I love exploring Seattle and photographing the city!
+Some of my favorite authors include Taylor Jenkins Reid, Christopher Ruocchio, Ursula K. Le Guin, Adrian Tchaikovsky, and Brandon Sanderson.
+I love photographing the nature around Seattle, especially birds, bugs, and other animals around the city!
