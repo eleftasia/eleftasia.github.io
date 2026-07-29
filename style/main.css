@@ -56,7 +56,7 @@ GENERAL SETUP
 
 :root {
     --link-text-color: var(--ansi-12);
-    --link-hover-text-color: var(--link-color);
+    --link-hover-text-color: var(--foreground-color);
 }
 
 html, body {
@@ -153,6 +153,7 @@ img {
     border: 0;
     border-radius: 10%;
     max-width: 30%;
+    float: right;
 }
 
 /*
@@ -176,14 +177,14 @@ nav.menu p {
 
 nav.menu a.navbarItem {
     border-radius: 5px;
-    border: 1px --background-color none;
+    border: 1px var(--background-color) solid;
     overflow: hidden;
 }
 nav.menu a.selectedNavbarItem, nav.menu a.selectedNavbarItem:hover, nav.menu a.selectedNavbarItem:focus {
-    border: 1px var(--link-hover-text-color) solid;
-    background-color: var(--link-hover-text-color);
+    border: 1px var(--link-text-color) solid;
+    background-color: var(--link-text-color);
     color: var(--background-color);
-    text-decoration-color: var(--link-hover-text-color);
+    text-decoration-color: var(--link-text-color);
     text-decoration: none;
 }
 
@@ -270,4 +271,13 @@ ANSI COLOR CLASSES
 
 .ansi15 {
     color: var(--ansi-15);
+}
+
+/*
+TRIPLE LINE
+*/
+
+.triple-line{
+    font-weight: 900;
+    letter-spacing: -8px;
 }
